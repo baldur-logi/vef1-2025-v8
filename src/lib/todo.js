@@ -1,4 +1,4 @@
-import { el, empty } from "./elements.js";
+import {empty } from "./elements.js";
 
 export function toggleTodoItemStatus(item, isShown = true) {
   if (!item) return;
