@@ -1,0 +1,3 @@
+[build.environment]
+PARCEL_NO_RUST = "true"
+PARCEL_WATCHER_FORCE_PURE = "true"
