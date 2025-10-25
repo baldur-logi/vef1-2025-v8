@@ -1,7 +1,4 @@
 [build]
-  command = "npm run build"
-  publish = "dist"
-  environment = { 
-    PARCEL_NO_RUST = "true",
-    PARCEL_WATCHER_FORCE_PURE = "true"
-  }
+command = "npm run build"
+publish = "dist"
+environment = { PARCEL_NO_RUST = "true", PARCEL_WATCHER_FORCE_PURE = "true" }
