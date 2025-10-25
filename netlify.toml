@@ -1,3 +1,7 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
 [build.environment]
-PARCEL_NO_RUST = "true"
-PARCEL_WATCHER_FORCE_PURE = "true"
+  PARCEL_NO_RUST = "true"
+  PARCEL_WATCHER_FORCE_PURE = "true"
